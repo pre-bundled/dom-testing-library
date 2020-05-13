@@ -1,6 +1,6 @@
 "use strict";
 
-var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+var _interopRequireDefault = require("../pre-bundled/node_modules/@babel/runtime/helpers/interopRequireDefault");
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -8,7 +8,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.prettyDOM = prettyDOM;
 exports.logDOM = void 0;
 
-var _prettyFormat = _interopRequireDefault(require("pretty-format"));
+var _prettyFormat = _interopRequireDefault(require("../pre-bundled/node_modules/pretty-format"));
 
 var _helpers = require("./helpers");
 

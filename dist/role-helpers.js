@@ -11,9 +11,9 @@ exports.isInaccessible = isInaccessible;
 exports.computeAriaSelected = computeAriaSelected;
 exports.logRoles = void 0;
 
-var _ariaQuery = require("aria-query");
+var _ariaQuery = require("../pre-bundled/node_modules/aria-query");
 
-var _domAccessibilityApi = require("dom-accessibility-api");
+var _domAccessibilityApi = require("../pre-bundled/node_modules/dom-accessibility-api");
 
 var _prettyDom = require("./pretty-dom");
 
