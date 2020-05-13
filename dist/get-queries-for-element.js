@@ -1,6 +1,6 @@
 "use strict";
 
-var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+var _interopRequireWildcard = require("../pre-bundled/node_modules/@babel/runtime/helpers/interopRequireWildcard");
 
 Object.defineProperty(exports, "__esModule", {
   value: true

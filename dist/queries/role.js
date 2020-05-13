@@ -6,9 +6,9 @@ Object.defineProperty(exports, "__esModule", {
 exports.queryAllByRole = queryAllByRole;
 exports.findByRole = exports.findAllByRole = exports.getByRole = exports.getAllByRole = exports.queryByRole = void 0;
 
-var _domAccessibilityApi = require("dom-accessibility-api");
+var _domAccessibilityApi = require("../../pre-bundled/node_modules/dom-accessibility-api");
 
-var _ariaQuery = require("aria-query");
+var _ariaQuery = require("../../pre-bundled/node_modules/aria-query");
 
 var _roleHelpers = require("../role-helpers");
 

@@ -4,13 +4,13 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
-var _extends = _interopDefault(require('@babel/runtime/helpers/extends'));
-var prettyFormat = _interopDefault(require('pretty-format'));
-var domAccessibilityApi = require('dom-accessibility-api');
-var ariaQuery = require('aria-query');
-var _regeneratorRuntime = _interopDefault(require('@babel/runtime/regenerator'));
-var _asyncToGenerator = _interopDefault(require('@babel/runtime/helpers/asyncToGenerator'));
-var _objectWithoutPropertiesLoose = _interopDefault(require('@babel/runtime/helpers/objectWithoutPropertiesLoose'));
+var _extends = _interopDefault(require("../../pre-bundled/node_modules/@babel/runtime/helpers/extends"));
+var prettyFormat = _interopDefault(require("../../pre-bundled/node_modules/pretty-format"));
+var domAccessibilityApi = require("../../pre-bundled/node_modules/dom-accessibility-api");
+var ariaQuery = require("../../pre-bundled/node_modules/aria-query");
+var _regeneratorRuntime = _interopDefault(require("../../pre-bundled/node_modules/@babel/runtime/regenerator"));
+var _asyncToGenerator = _interopDefault(require("../../pre-bundled/node_modules/@babel/runtime/helpers/asyncToGenerator"));
+var _objectWithoutPropertiesLoose = _interopDefault(require("../../pre-bundled/node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose"));
 
 var globalObj = typeof window === 'undefined' ? global : window; // Currently this fn only supports jest timers, but it could support other test runners in the future.
 
